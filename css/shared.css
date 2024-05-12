@@ -1,0 +1,75 @@
+
+
+
+/* navbar */
+
+
+
+
+
+.start-btn {
+    width: 9.65vw;
+    height: 3.4vw;
+    padding: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--first-button-color);
+}
+
+.navbar-brand span {
+    color: var(--white-color);
+}
+
+.nav-item .nav-link {
+    color: var(--white-color);
+}
+
+.nav-item .nav-link :hover {
+    color: var(--first-button-color);
+}
+.dropdown-toggle:focus , 
+.dropdown-item:active{
+    color: var(--first-button-color);
+}
+.dropdown-menu {
+    background-color: rgba(243, 235, 254, 1);
+    border: none;
+    border-radius: 0;
+    width: 350px;
+    height: 170px;
+    position: relative;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+}
+
+.dropdown-menu .emoji-one {
+    width: 65px;
+    position: absolute;
+    bottom: 20px;
+    right: 130px;
+}
+
+.dropdown-menu .emoji-two {
+    width: 50px;
+    position: absolute;
+    top: 30px;
+    right: 90px;
+}
+
+.dropdown-menu .emoji-three {
+    width: 65px;
+    position: absolute;
+
+    bottom: 40px;
+    right: 20px;
+}
+
+.navbar-nav .nav-link.active {
+    color: var(--first-button-color);
+}
